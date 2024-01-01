@@ -1,4 +1,4 @@
-overwrite_existing = False
+overwrite_existing = True
 save_path = r""
 save_full_text = True
 
@@ -10,7 +10,7 @@ save_full_text = True
 #  photo_seq (do not change this)
 #  ext (do not change this)
 
-file_name_format = '{post_date}_{desc}{photo_seq}.{ext}'
+file_name_format = '{name}_{post_id}_{post_date}_{desc}{photo_seq}.{ext}'
 
 # PROBABLY DON'T NEED TO CHANGE THIS
 api_url = 'https://justfor.fans/ajax/getPosts.php?UserID={userid}&Type=All&StartAt={seq}&Source=Home&UserHash4={hash}'
